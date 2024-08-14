@@ -1,0 +1,27 @@
+[DEV] 2024/08/15 - 05:44:42 服务器开启成功!
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /douyin/user/register/    --> tiktok/go/controller.Register (3 handlers)
+[GIN-debug] POST   /douyin/user/login/       --> tiktok/go/controller.Login (3 handlers)
+[GIN-debug] GET    /douyin/user/             --> tiktok/go/controller.UserInfo (4 handlers)
+[GIN-debug] GET    /douyin/feed/             --> tiktok/go/controller.VideoStream (3 handlers)
+[GIN-debug] POST   /douyin/publish/action/   --> tiktok/go/controller.VideoPublish (4 handlers)
+[GIN-debug] GET    /douyin/publish/list/     --> tiktok/go/controller.VideoList (3 handlers)
+[GIN-debug] POST   /douyin/favorite/action/  --> tiktok/go/controller.LikeVideoByUserID (4 handlers)
+[GIN-debug] GET    /douyin/favorite/list/    --> tiktok/go/controller.UserFavoriteList (3 handlers)
+[GIN-debug] POST   /douyin/comment/action/   --> tiktok/go/controller.CommentVideo (4 handlers)
+[GIN-debug] GET    /douyin/comment/list/     --> tiktok/go/controller.CommentList (3 handlers)
+[GIN-debug] POST   /douyin/relation/action/  --> tiktok/go/controller.FollowUser (4 handlers)
+[GIN-debug] GET    /douyin/relation/follow/list/ --> tiktok/go/controller.FollowList (4 handlers)
+[GIN-debug] GET    /douyin/relation/follower/list/ --> tiktok/go/controller.FollowerList (4 handlers)
+[GIN-debug] GET    /douyin/relation/friend/list/ --> tiktok/go/controller.FriendList (4 handlers)
+[GIN-debug] GET    /douyin/message/chat/     --> tiktok/go/controller.MessageChat (4 handlers)
+[GIN-debug] POST   /douyin/message/action/   --> tiktok/go/controller.MessageAction (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/08/15 - 05:44:47 | 400 |            0s |       127.0.0.1 | POST     "/douyin/user/login/"
